@@ -1,0 +1,324 @@
+/* Universal Selector  */
+/* Universal Selector  */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.container2 {
+    width: 68%;
+    margin: auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.underline {
+    border-top: 4px solid #00000038;
+    width: 7%;
+    margin: 10px auto;
+}
+
+.writing-part {
+    margin-bottom: 50px;
+}
+.box {
+    padding: 0 25px;
+}
+
+nav {
+    padding: 10px 0;
+}
+.btn {
+    width: 200px;
+    padding: 15px;
+    font-size: 14px;
+    margin: 30px;
+}
+
+i {
+    font-size: 20px;
+    background-color: #bdd1df;
+    border-radius: 100%;
+    padding: 10px;
+    width: 45px;
+    margin-top: 25px;
+    
+}
+/* Grid View Class */
+/* Grid View Class */
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* Header Portion  */
+/* Header Portion  */
+
+
+#heading-part {
+    background-color: #87509c;
+    color: #f7f3ea;
+}
+
+header .writing-part {
+    text-align: center;
+    padding: 90px 100px;
+}
+header h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+header button {
+    background-color: #eb7d4b;
+    color: #ffffff;
+}
+
+.menue-part ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menue-part li {
+    display: inline-block;
+    margin-right: 6px;
+    
+}
+
+.menue-part li a {
+    color: #dfd0e5;
+}
+
+.menue-part li a:hover {
+    background-color: #643a7989;
+    padding: 4px 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Service Section  */
+/* Service Section  */
+
+
+#service-part {
+    background-color: #17c2a4;
+    color: #ffffff;
+    text-align: center;
+}
+
+#service-part .box img {
+    height: 130px;
+}
+
+/* Team Meet Section  */
+/* Team Meet Section  */
+
+#meet-part {
+    background-color: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+}
+
+#meet-part p{
+    margin-top: 20px;
+}
+
+#meet-part .box {
+    margin: 20px 0;
+}
+
+#meet-part a {
+    color: #79d0ee;
+}
+
+/* Skill Section  */
+/* Skill Section  */
+
+#skills-part {
+    background-color: #ffffff;
+    color: #3c4761;
+    text-align: center;
+}
+
+/* Portfolio Section  */
+/* Portfolio Section  */
+
+#portfolio-part {
+    background-color: #ffdd99;
+    color: #3c4761;
+    text-align: center;
+}
+
+#portfolio-part button {
+    background-color: #17c2a4;
+    color: #45433e;
+}
+
+
+#portfolio-part .box-part {
+    margin-bottom: 50px;
+}
+
+#portfolio-part p{
+    margin-top: 20px;
+}
+
+.link-box {
+    margin-top: 40px;
+}
+#portfolio-part .link-box button {
+    padding: 5px 12px;
+    width: 70px;
+    color: #393939;
+    background-color: #ebc985;
+    font-size: 15px;
+    
+}
+
+#portfolio-part .link-box button:hover {
+    background-color: #ffffff;
+    
+}
+
+/* People Reaction Section  */
+/* People Reaction Section  */
+
+#people-reaction {
+    background-color: #d74680;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 50px;
+}
+
+.box p{
+    margin-bottom: 20px;
+}
+#people-reaction .box a {
+    color: #fcd397;
+}
+
+/* Get in touch Section  */
+/* Get in touch Section  */
+
+#touch-part {
+    background-color: #3c5499;
+    color: #ffffff;
+    text-align: center;
+}
+form {
+    width: 90%;
+    margin: auto;
+}
+
+.form-part-one {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #273a71;
+}
+input::placeholder{
+    color: #f1f2f6;
+    font-size: 16px;
+}
+
+textarea::placeholder {
+    color: #f1f2f6;
+    font-size: 16px;
+}
+
+input[type="text"]{
+    width: 98%;
+    margin-right: 2%;
+}
+input[type="email"]{
+    width: 98%;
+    margin-left: 2%;    
+}
+
+form .btn {
+    background-color: #30bae7;
+    color: #ffffff;
+}
+
+
+
+/* Last Section  */
+/* Last Section  */
+#footer-part {
+    background-color: #344b8e;
+    padding: 20px;
+    
+    
+}
+
+#footer-part ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#footer-part li {
+    display: inline-block;
+    
+    
+}
+
+#footer-part li a {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+#footer-part li a:hover {
+    color: #319ccf;
+
+}
+
